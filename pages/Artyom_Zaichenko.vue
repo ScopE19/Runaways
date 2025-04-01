@@ -1,7 +1,7 @@
 <template>
-  <main class="custom-bg flex flex-col items-center min-h-[95vh] py-10 rounded-2xl justify-between">
+  <main class="custom-bg flex flex-col items-center min-h-[95vh] py-10 justify-between">
     <div class="flex-grow"></div> 
-    <div class="bg-[#6b8f6b] p-6 rounded-2xl shadow-lg max-w-5xl w-full mx-auto">
+    <div class="bg-[#6b8f6b] p-6 rounded-2xl shadow-lg max-w-5xl w-full h-auto mx-auto">
       <h1 class="jersey-font text-7xl text-[#fafaee] text-center mb-6">Artyom Zaichenko</h1>
       <div class="flex flex-col md:flex-row items-center gap-6">
         <img src="assets/images/Artyom_photo.png" alt="Morozov Sergey" class="w-64 h-auto rounded-2xl shadow-lg hover:w-80 transition-all duration-300">

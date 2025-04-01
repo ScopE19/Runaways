@@ -1,5 +1,5 @@
 <template>
-  <main class="custom-bg flex flex-col items-center min-h-[95vh] py-10 rounded-2xl justify-between">
+  <main class="custom-bg flex flex-col items-center min-h-[95vh] py-10 justify-between">
     <div class="flex-grow"></div> 
     <div class="bg-[#6b8f6b] p-6 rounded-2xl shadow-lg max-w-5xl w-full h-auto mx-auto">
       <h1 class="jersey-font text-7xl text-[#fafaee] text-center mb-6">Oleinikov Danila</h1>
