@@ -1,5 +1,5 @@
 <template>
-  <main class="custom-bg flex flex-col items-center min-h-[95vh] py-10 rounded-2xl justify-between">
+  <main class="custom-bg flex flex-col items-center min-h-[95vh] py-10 justify-between">
     <div class="flex-grow"></div> 
     <div class="bg-[#6b8f6b] p-8 rounded-2xl shadow-lg max-w-3xl w-full h-auto mx-auto">
       <h1 class="jersey-font text-7xl text-[#fafaee] text-center">Choose who you want to know more about:</h1>
