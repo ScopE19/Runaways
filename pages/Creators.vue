@@ -13,8 +13,8 @@
 
 <style>
 .custom-bg {
-  background: url('assets/images/Runaways_BG_3.webp') repeat;
-  background-size: 40%;
+  background: url('assets/images/Runaways_BG_4.webp') repeat;
+  background-size: 50%;
   image-rendering: pixelated;
 }
 </style>

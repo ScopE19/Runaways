@@ -4,18 +4,18 @@
     <div class="bg-[#6b8f6b] p-6 rounded-2xl shadow-lg max-w-5xl w-full h-auto mx-auto">
       <h1 class="jersey-font text-7xl text-[#fafaee] text-center mb-6">Oleinikov Danila</h1>
       <div class="flex flex-col md:flex-row items-center gap-6">
-        <img src="assets/images/Danila_photo.png" alt="Morozov Sergey" class="w-64 h-auto rounded-2xl shadow-lg hover:w-80 transition-all duration-300">
-        <div class="text-[#fafaee] text-xl flex-1">
-          <p class="jersey-font mb-4 text-4xl text-[#c7dec7] max-h-[90vh]">
+        <img src="assets/images/Danila_photo.png" alt="Oleinikov Danila" class="w-64 h-auto rounded-2xl shadow-lg hover:w-80 transition-all duration-300">
+        <div class=" text-[#fafaee] text-xl flex-1">
+          <p class="jersey-font mb-2 text-3xl text-[#c7dec7] max-h-[90vh]">
             Basic information:
           </p>
-          <p class="jersey-font mb-4 text-2xl text-[#fafaee] max-h-[90vh]">
+          <p class="jersey-font mb-2 text-2xl text-[#fafaee] max-h-[90vh]">
             Oleinikov Danila Vladislavovich, 22 years old, Kazakhstan, Petropavlovsk.
           </p>
-          <p class="jersey-font mb-4 text-4xl text-[#c7dec7] max-h-[90vh]">
+          <p class="jersey-font mb-2 text-3xl text-[#c7dec7] max-h-[90vh]">
             Summary:
           </p>
-          <p class="jersey-font mb-4 text-2xl text-[#fafaee] max-h-[90vh]">
+          <p class="jersey-font mb-2 text-2xl text-[#fafaee] max-h-[90vh]">
             I am a second-year student at NKZU, majoring in Information Systems in Management. While still a beginner, I have a strong curiosity and passion for frontend development, AI, and game development. Constantly learning through hands-on projects and tutorials, I aim to develop my skills and gain practical experience in different areas of tech. 
           </p>
         </div>
@@ -36,8 +36,8 @@
 
 <style>
 .custom-bg {
-  background: url('assets/images/Runaways_BG_3.webp') repeat;
-  background-size: 40%;
+  background: url('assets/images/Runaways_BG_4.webp') repeat;
+  background-size: 50%;
   image-rendering: pixelated;
 }
 </style>
