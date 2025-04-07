@@ -2,31 +2,31 @@
   <main class="custom-bg flex flex-col items-center min-h-[95vh] py-10 justify-between">
     <div class="flex-grow"></div> 
     <div class="bg-[#6b8f6b] p-6 rounded-2xl shadow-lg max-w-5xl w-full h-auto mx-auto">
-      <h1 class="jersey-font text-7xl text-[#fafaee] text-center mb-6">Oleinikov Danila</h1>
+      <h1 class=" text-7xl text-[#fafaee] text-center mb-6">{{ $t('nameod')}}</h1>
       <div class="flex flex-col md:flex-row items-center gap-6">
         <img src="assets/images/Danila_photo.png" alt="Oleinikov Danila" class="w-64 h-auto rounded-2xl shadow-lg hover:w-80 transition-all duration-300">
         <div class=" text-[#fafaee] text-xl flex-1">
-          <p class="jersey-font mb-2 text-3xl text-[#c7dec7] max-h-[90vh]">
-            Basic information:
+          <p class=" mb-2 text-3xl text-[#c7dec7] max-h-[90vh]">
+            {{ $t('basic_info') }}
           </p>
-          <p class="jersey-font mb-2 text-2xl text-[#fafaee] max-h-[90vh]">
-            Oleinikov Danila Vladislavovich, 22 years old, Kazakhstan, Petropavlovsk.
+          <p class=" mb-2 text-2xl text-[#fafaee] max-h-[90vh]">
+            {{ $t('basic_info_danila') }}
           </p>
-          <p class="jersey-font mb-2 text-3xl text-[#c7dec7] max-h-[90vh]">
-            Summary:
+          <p class=" mb-2 text-3xl text-[#c7dec7] max-h-[90vh]">
+            {{ $t('summary') }}
           </p>
-          <p class="jersey-font mb-2 text-2xl text-[#fafaee] max-h-[90vh]">
-            I am a second-year student at NKZU, majoring in Information Systems in Management. While still a beginner, I have a strong curiosity and passion for frontend development, AI, and game development. Constantly learning through hands-on projects and tutorials, I aim to develop my skills and gain practical experience in different areas of tech. 
+          <p class=" mb-2 text-2xl text-[#fafaee] max-h-[90vh]">
+            {{ $t('summary_danila') }}
           </p>
         </div>
       </div>
       <div class="mt-6 ">
-        <p class="jersey-font mb-4 text-4xl text-[#c7dec7] max-h-[90vh]">Additional information:</p>
-        <p class="jersey-font mb-4 text-2xl text-[#fafaee] max-h-[90vh]">
-          Worked as a App Assessor for Yandex during 2022-2023, tested Yandex apps, such as Yandex Music, Yandex Games, Kinopoisk, etc. 
+        <p class=" mb-4 text-4xl text-[#c7dec7] max-h-[90vh]">{{ $t('additional_info') }}</p>
+        <p class=" mb-4 text-2xl text-[#fafaee] max-h-[90vh]">
+          {{ $t('additional_info_danila') }}
         </p>
-        <p class="jersey-font mb-4 text-2xl text-[#fafaee] max-h-[90vh]">
-          I have a basic knowledge of Python, SQL, JavaScript, HTML, CSS and PyTorch. Out of all subjects at university, Frontend development is my favorite. Also I have experience working with Adobe Photoshop, Sony Vegas, Blender and Excel.
+        <p class=" mb-4 text-2xl text-[#fafaee] max-h-[90vh]">
+          {{ $t('additional_info_danila_2') }}
         </p>
       </div>
     </div>

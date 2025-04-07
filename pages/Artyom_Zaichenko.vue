@@ -2,31 +2,31 @@
   <main class="custom-bg flex flex-col items-center min-h-[95vh] py-10 justify-between">
     <div class="flex-grow"></div> 
     <div class="bg-[#6b8f6b] p-6 rounded-2xl shadow-lg max-w-5xl w-full h-auto mx-auto">
-      <h1 class="jersey-font text-7xl text-[#fafaee] text-center mb-6">Artyom Zaichenko</h1>
+      <h1 class=" text-7xl text-[#fafaee] text-center mb-6">{{ $t('nameaz')}}</h1>
       <div class="flex flex-col md:flex-row items-center gap-6">
         <img src="assets/images/Artyom_photo.png" alt="Morozov Sergey" class="w-64 h-auto rounded-2xl shadow-lg hover:w-80 transition-all duration-300">
         <div class="text-[#fafaee] text-xl flex-1">
-          <p class="jersey-font mb-4 text-4xl text-[#c7dec7] max-h-[90vh]">
-            Basic information:
+          <p class=" mb-4 text-4xl text-[#c7dec7] max-h-[90vh]">
+            {{ $t('basic_info') }}
           </p>
-          <p class="jersey-font mb-4 text-2xl text-[#fafaee] max-h-[90vh]">
-            My name is Artyom, I am 19 years old, I am a second-year student of the double-degree program in Arizona, which takes place at Manash Kozybaev University, Currently living in Kazakhstan Petropavlovsk.
+          <p class=" mb-4 text-2xl text-[#fafaee] max-h-[90vh]">
+            {{ $t('basic_info_artyom') }}
           </p>
-          <p class="jersey-font mb-4 text-4xl text-[#c7dec7] max-h-[90vh]">
-            Summary:
+          <p class=" mb-4 text-4xl text-[#c7dec7] max-h-[90vh]">
+            {{ $t('summary') }}
           </p>
-          <p class="jersey-font mb-4 text-2xl text-[#fafaee] max-h-[90vh]">
-            At the moment, I am a student who is learning the basics of programming for database manipulation and their interpretation through websites. At the moment, I can create websites with a simple design and also have some experience with Github and Nuxt. 
+          <p class=" mb-4 text-2xl text-[#fafaee] max-h-[90vh]">
+            {{ $t('summary_artyom') }}
           </p>
         </div>
       </div>
       <div class="mt-6 ">
-        <p class="jersey-font mb-4 text-4xl text-[#c7dec7] max-h-[90vh]">Additional information:</p>
-        <p class="jersey-font mb-4 text-2xl text-[#fafaee] max-h-[90vh]">
-          I have experience working with programs like Smath studio, Visual studio, Pycharm, Phpstorm, Unity Hub and pgAdmin. 
+        <p class=" mb-4 text-4xl text-[#c7dec7] max-h-[90vh]">{{ $t('additional_info')}}</p>
+        <p class=" mb-4 text-2xl text-[#fafaee] max-h-[90vh]">
+          {{ $t('additional_info_artyom') }}
         </p>
-        <p class="jersey-font mb-4 text-2xl text-[#fafaee] max-h-[90vh]">
-          I also currently have experience in programming languages such as HTML and CSS. Python , TypeScript , as well as a little experience in working with programs like photoshop , Adobe Acrobat. 
+        <p class=" text-2xl mb-4 text-[#fafaee] max-h-[90vh]">
+          {{ $t('additional_info_artyom_2') }}
         </p>
       </div>
     </div>

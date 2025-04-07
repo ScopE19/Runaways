@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Undertale_Battle_Font';
+	src: url('../fonts/undertale_battle_font.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/undertale_battle_font.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/undertale_battle_font.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/undertale_battle_font.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/undertale_battle_font.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/undertale_battle_font.svg#undertale_battle_font') format('svg'); /* Chrome < 4, Legacy iOS */
+}
