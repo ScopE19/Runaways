@@ -37,12 +37,10 @@ function handleChange(event) {
   localStorage.setItem('locale', newLocale)
 }
 onUpdated(() => {
-  const savedLocale = localStorage.getItem('locale')
-  if (savedLocale === 'ru') {
-    setLocale('ru')
-  } else {
-    setLocale('en')
-  }
+  const saved = localStorage.getItem('locale')
+  if (saved && saved !== locale.value) {
+      setLocale(saved)
+    }
 })
 </script>
 <template>
@@ -68,19 +66,11 @@ onUpdated(() => {
         <!--a href="https://www.youtube.com/"><img src="assets/images/youtube_logo.svg" class="w-16 h-16 hover:bg-[#1b2028]"></a>
         <a href="https://github.com/"><img src="assets/images/github_logo.svg" class="w-16 h-16 hover:bg-[#1b2028]"></a-->
           <div>
-            <select
-      class="w-full text-[#fafaee] bg-[#475e47] p-2 rounded border  border-gray-300 text-lg"
-      :value="locale"
-      @change="handleChange"
-    >
-      <option
-        v-for="lang in locales"
-        :key="lang.code"
-        :value="lang.code"
-      >
-        {{ lang.name }}
-      </option>
-    </select>
+            <select @change="handleChange" :value="locale" class=" p-1 items-center rounded bg-[#475e47] text-2xl  text-[#fafaee]">
+            <option value="en">English</option>
+            <option value="ru">Русский</option>
+          </select>
+    
           </div>
       </footer>
     </div>
