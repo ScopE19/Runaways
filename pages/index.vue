@@ -22,7 +22,7 @@ const { locales, setLocale } = useI18n()
 
 <style>
 .custom-bg {
-  background: url('assets/images/Runaways_BG_4.webp') repeat;
+  background: url('assets/images/Runaways_BG_4_1.webp') repeat;
   background-size: 50%;
   image-rendering: pixelated;
 }
