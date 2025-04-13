@@ -67,8 +67,8 @@ onUpdated(() => {
         <a href="https://github.com/"><img src="assets/images/github_logo.svg" class="w-16 h-16 hover:bg-[#1b2028]"></a-->
           <div>
             <select @change="handleChange" :value="locale" class=" p-1 items-center rounded bg-[#475e47] text-2xl  text-[#fafaee]">
-            <option value="en">English</option>
-            <option value="ru">Русский</option>
+            <option value="en">🇬🇧 English</option>
+            <option value="ru">🇷🇺 Русский</option>
           </select>
     
           </div>
